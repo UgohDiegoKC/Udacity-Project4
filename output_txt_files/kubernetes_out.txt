@@ -1,0 +1,17 @@
+(.devops) voclabs:~/environment/Udacity-Project4 $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacity-devops-project4" already exists
+NAME                      READY   STATUS    RESTARTS   AGE
+udacity-devops-project4   1/1     Running   0          3m50s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
+(.devops) voclabs:~/environment/Udacity-Project4 $ ./make_prediction.sh                                                                                                                                                                      
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
